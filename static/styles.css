@@ -1,0 +1,5 @@
+.nav {
+    background-image: url('/static/img/ascii_art.png');
+    background-size: cover; /* Adjust as needed */
+    /* Add other background properties as needed */
+}

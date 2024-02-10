@@ -11,12 +11,6 @@ def load_image(image_path):
         print(f"Error loading image: {e}")
         return None
 
-# def resize_image(image, new_width=100):
-#     # Compute the ratio of the new width to the old width, and adjust height accordingly
-#     ratio = new_width / image.shape[1]
-#     new_height = int(image.shape[0] * ratio)
-#     return cv2.resize(image, (new_width, new_height))
-    
 def resize_image(image, new_height=100):
     # Calculate original ratio:
     original_height=image.shape[0]

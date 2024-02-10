@@ -9,3 +9,11 @@
     overflow-x: auto;
 }
 
+.ascii-art-container {
+    max-width: 100%; /* Allow the container to adjust based on content */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.ascii-art {
+    font-size: 1vw; /* Adjust font size based on viewport width */
+}

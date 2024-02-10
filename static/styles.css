@@ -3,3 +3,9 @@
     background-size: cover; /* Adjust as needed */
     /* Add other background properties as needed */
 }
+
+.image-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+

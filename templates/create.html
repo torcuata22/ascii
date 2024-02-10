@@ -10,14 +10,12 @@
     </form>
 
     {% if ascii_art %}
-    
+    <div class="ascii-art" style="font-family: monospace;">
         <h2>ASCII Art:</h2>
-        <div class="ascii-art-container">
-            <pre class="ascii-art">{{ ascii_art }}</pre>
-        </div>
-
-    
-{% endif %}
+        <code style="width: 100%; height: auto;">{{ ascii_art }}</code>
+    </div>
+    {% endif %}
+</div>
 
 
 

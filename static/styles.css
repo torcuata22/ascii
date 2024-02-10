@@ -4,16 +4,9 @@
     /* Add other background properties as needed */
 }
 
-.image-container {
-    max-width: 100%;
-    overflow-x: auto;
-}
-
 .ascii-art-container {
-    max-width: 100%; /* Allow the container to adjust based on content */
-    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    font-family: monospace;
+    white-space: pre-wrap; /* This allows the ASCII art to wrap if it exceeds the container width */
 }
 
-.ascii-art {
-    font-size: 1vw; /* Adjust font size based on viewport width */
-}
+
